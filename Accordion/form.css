@@ -2,24 +2,27 @@
 .accordion dd a{
     display: block;
     color: #000;
-    font-weight:bold;
-    width:100%;
+    font-weight: bold;
+    width: 100%;
     background-color: #ccc;
     text-decoration: none;
     padding: 10px;
-    margin:0;
+    margin: 0;
 }
-.accordion dt{
+.accordion dt {
     padding: 10px;
-    border:  solid;
-    width:100%; 
+    border: solid;
+    width: 100%;
+    margin: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
 }
 .accordion dd {
     background-color: #ccc;
-    margin:0;
-}
-.accordion dt{
-    margin:0;
+    padding: 10px;
+    border: solid;
+    width: 100%;
+    margin: 0;
     border-top-width: 0;
     border-bottom-width: 0;
 }
@@ -29,4 +32,12 @@
 textarea {
     width: 90%;
     height: 80%;
+}
+header {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    letter-spacing: 5px;
+}
+header h5 {
+    letter-spacing: 1px;
 }
