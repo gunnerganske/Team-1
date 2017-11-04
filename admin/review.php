@@ -23,8 +23,10 @@ $sql = "Insert SQL Query Here";
 $result = $conn->query($sql);
 
 //Run For/Foreach/While/If Statements here
-
-
+ 
+//Average Function 
+//Count Function
+//Name Functions
 
 
 //Closing Connection to Server
