@@ -1,43 +1,55 @@
+body {
+    background-color: #DAEAC6;
+    font-family: Avenir, Helvetica, Verdana, sans-serif; 
+}
 .accordion dt a,
 .accordion dd a{
     display: block;
     color: #000;
     font-weight: bold;
     width: 100%;
-    background-color: #ccc;
+    background-color: #fff;
     text-decoration: none;
     padding: 10px;
     margin: 0;
 }
 .accordion dt {
     padding: 10px;
-    border: solid;
-    width: 100%;
     margin: 0;
-    border-top-width: 0;
-    border-bottom-width: 0;
 }
 .accordion dd {
-    background-color: #ccc;
+    background-color: #C6DEA6;
     padding: 10px;
-    border: solid;
-    width: 100%;
-    margin: 0;
-    border-top-width: 0;
-    border-bottom-width: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 .accordion dd:last-of-type {
-    border-bottom-width: 1px;
 }
 textarea {
     width: 90%;
     height: 80%;
 }
+
 header {
-    padding-bottom: 40px;
-    padding-top: 10px;
-    letter-spacing: 5px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 header h5 {
     letter-spacing: 1px;
+    font-weight: 100;
+}
+header h1 {
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+label {
+    padding-left: 5px;
 }
