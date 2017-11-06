@@ -1,24 +1,30 @@
 body {
-    background-color: #DAEAC6;
-    font-family: Avenir, Helvetica, Verdana, sans-serif; 
+    background-color: #fff;
+    font-family: Avenir, Helvetica, Verdana, sans-serif;
+    color: #364a1c;
 }
 .accordion dt a,
 .accordion dd a{
     display: block;
-    color: #000;
+    color: #364a1c;
     font-weight: bold;
     width: 100%;
     background-color: #fff;
     text-decoration: none;
     padding: 10px;
     margin: 0;
+    border: solid 5px #e7f1da;
+}
+.accordion dt a:hover,
+.accordion dd a:hover {
+    background-color: #c3dda2;
 }
 .accordion dt {
     padding: 10px;
     margin: 0;
 }
 .accordion dd {
-    background-color: #C6DEA6;
+    background-color: #e7f1da;
     padding: 10px;
     margin-left: 25px;
     margin-right: 25px;
