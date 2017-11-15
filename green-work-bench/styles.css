@@ -1,3 +1,48 @@
+body, html{
+    flex: auto;
+    height: 100%;
+}
+#header {
+    height: 15%;
+    width: 100%;
+}
+#btn1{
+    float: left;
+}
+#btn2{
+    float: right;
+}
+#searchdiv{
+    width: 25%;
+    height: 100%;
+    background-color: #93C52E;
+    float: left;
+    overflow: scroll;
+}
+#centerdiv{
+    width:50%;
+    height: 100%;
+    background-color:white;
+    float:left;
+    overflow: scroll;
+
+}
+#questionsdiv{
+    width: 25%;
+    height:100%;
+    background-color:  #93C52E;
+    float: left;
+    overflow: scroll;
+}
+div {
+    text-align: center;
+}
+.projectnav {
+    width: 300px;
+    margin: none;
+    text-align: center;
+}
+
 body {
     background-color: #fff;
     font-family: Avenir, Helvetica, Verdana, sans-serif;
@@ -42,7 +87,7 @@ textarea {
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url(header.jpg);
+    background-image: url(style/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
