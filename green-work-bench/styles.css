@@ -112,6 +112,12 @@ footer {
     padding: 30px 10px 10px 10px;
     font-size: 8px;
 }
+#name-on-button{
+    float: left;
+}
+#date-on-button{
+    float: right;
+}
 
 @media (max-width: 576px) {
     #header h1 {

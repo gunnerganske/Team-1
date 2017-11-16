@@ -1,8 +1,4 @@
 	<body>
-		
-			<h1 class="text-center">STUDENT GREEN FEE</h1>
-            <h5 class="text-center">Winona State University</h5>
-		
 		<main>
             <h3 class="text-center">High Priority Criteria</h3>
 			<form>
