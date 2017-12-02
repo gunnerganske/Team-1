@@ -1,0 +1,342 @@
+
+body, html{
+    flex: auto;
+    height: 100%;
+}
+h4 {
+    color: rgba(124, 164, 29, 1);
+}
+
+h3, h5, body {
+    color: #231f20;
+
+}
+h3, h5, h4 {
+    font-weight: bold;
+}
+.sideHead {
+    margin-top: 28px;
+    margin-bottom: 24px;
+}
+.sideHead2 {
+    margin-top: 28px;
+    margin-bottom: 51px;
+}
+#header {
+    height: 15%;
+    width: 100%;
+}
+#arrow-search-top, #arrow-search-bottom{
+    float: left;
+    border: none;
+}
+
+#searchdiv{
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: scroll;
+    
+}
+#centerdiv{
+    width:50%;
+    height: 100%;
+    background-color:white;
+    float:left;
+    overflow: scroll;
+
+}
+#questionsdiv{
+    width: 25%;
+    height:100%;
+    float: left;
+    overflow: scroll;
+}
+div {
+    text-align: center;
+}
+p {
+    text-align: left;
+}
+.projectnav {
+    width: 100%;
+    margin: none;
+    border-radius: 3px;
+    border-color: rgba(124, 164, 29, 1);
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgba(60,86,64,.5);
+}
+.projectnav:hover{
+    box-shadow: inset 0 0 20px rgba(124, 164, 29, 1);
+    color: black; 
+    cursor: pointer;
+
+}
+.projectnav:focus {
+    outline: none;
+    box-shadow: inset 0 0 30px rgba(124, 164, 29, 1);
+    color: black; 
+
+}
+.project-select-form{
+    padding: 5px;
+    margin: 10px;
+}
+
+body {
+    background-color: #fff;
+    font-family: Avenir, Helvetica, Verdana, sans-serif;
+    color: #364a1c;
+}
+.accordion dt a,
+.accordion dd a{
+    display: block;
+    color: #364a1c;
+    font-weight: bold;
+    width: 100%;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    border: solid 1px rgba(124, 164, 29, 1);;
+    border-radius: 3px;
+}
+.accordion dt a:hover,
+.accordion dd a:hover {
+    background-color: rgba(124, 164, 29, 1);;
+    color: #fff;
+}
+.accordion dt a:focus,
+.accordion dd a:focus {
+    background-color: rgba(124, 164, 29, 1);;
+    color: #fff;
+}
+.accordion dt {
+    padding: 10px;
+    margin: 0;
+}
+.accordion dd {
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+textarea {
+    width: 90%;
+    height: 80%;
+}
+
+#header {
+    margin-bottom: 10px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    background-color: rgba(124, 164, 29, 1); ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 125px;
+    text-align: center;
+}
+#header-hr{
+    background-color: white;
+}
+#header h1 {
+    font-weight: bolder;
+}
+label {
+    padding-left: 5px;
+}
+footer img {
+    width: 50%;
+    height: auto;
+}
+footer {
+    padding: 30px 10px 10px 10px;
+    font-size: 8px;
+}
+#name-on-button{
+    float: left;
+}
+#date-on-button{
+    float: right;
+}
+
+.question-text{
+    color:  rgba(124, 164, 29, 1);;
+    font-weight: bold;
+}
+#load{
+    word-wrap: break-word;
+    background-repeat: no-repeat;
+    position: center;
+}
+.proj-detail-span{
+    float: left;
+}
+#searchQuery{
+    width: 80%;
+    border-bottom: 2px solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius:3px;
+    border-color: rgba(124, 164, 29, 1); 
+   
+
+}
+#searchQuery:focus{
+    outline: none;
+    box-shadow: inset 0 0 20px rgba(124, 164, 29, 1);
+}
+#searchQuery:hover{
+    outline: none;
+    box-shadow: inset 0 0 20px rgba(124, 164, 29, 1);
+}
+
+#hidden{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    opacity: 0.0;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background-color: #6863636e;
+}
+
+#submitReview:hover{
+    cursor: pointer;
+}
+
+#to-review{
+   padding: 3px;
+   border-radius: 5px;
+   font-size: 13pt;
+   box-shadow: 3px 3px 3px rgba(60,86,64,.3);
+  
+     
+}
+#to-review:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 20px rgba(124, 164, 29, 1);
+    
+}
+
+#logform {
+    border: solid;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px ;
+    box-shadow: 5px 5px 5px 5px rgba(60,86,64,.3);
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("WSU_GreenFee.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-color: #7ca445 ;
+    background-color: white;
+    
+}
+
+.loginput{
+    margin: 10px;
+    border-bottom:solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-color: rgba(60,86,64,1);
+    border-radius: 5px;  
+    background-color: rgba(60,86,64,0); 
+    color: rgba(60,86,64,1);
+    
+}
+
+.loginput:focus{
+    outline: none;
+    box-shadow: inset 0 0 20px rgb(60, 86, 64);
+    
+}
+.loginput::-webkit-input-placeholder{
+    color: rgba(60,86,64,1);
+}
+
+#loginheader {
+    color: #7ca445;
+}
+
+#login-submit{
+    box-shadow: 3px 3px 3px rgba(60,86,64,.7);
+}
+#login-submit:hover{
+    cursor: pointer;
+}
+
+#project-title-header{
+    color: rgba(124, 164, 29, 1) ;
+    padding: 30px;
+}
+
+#return-greeting{
+    margin: 0px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* ------------------NAV------------------------- */
+
+#dropMenu{
+    float: right;
+    padding: 0px;
+    visibility: hidden;
+    background-color: white;
+    width: 0px;
+    box-shadow: 3px 3px 3px rgba(60,86,64,.7); 
+}
+
+#dropnavList li{
+    list-style-type: none;
+}
+
+#navBtn {
+    float:right;
+    background-color: rgba(124, 164, 29, 1);
+    border: 1px solid;
+    border-radius:60px;
+    border-color: white;
+    box-shadow: 3px 3px 3px rgba(60,86,64,.7); 
+}
+
+#navBtn:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px;
+}
+
+#project-details-header{
+    display: inline-block;
+}
+ul {
+    padding: 5px;
+    margin: 3px;
+}
+/* --------------------------------------------------------- */
+
+/* -----------------------ADMIN.PHP------------------------ */
+
+.userValidityico{
+    margin-left: 10px;
+}
